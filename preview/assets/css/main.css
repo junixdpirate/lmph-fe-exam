@@ -1,0 +1,274 @@
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("fonts/Montserrat/static/Montserrat-Regular.ttf");
+    }
+
+
+body * {
+    font-family: "Montserrat";
+
+}
+body {
+    background-color: #fff;
+    margin:0;
+    padding:0;
+}
+
+header {
+    padding-top:1rem;
+    padding-bottom: 1rem;
+}
+
+.header-logo {
+    width:300px;
+}
+
+.header-text {
+    position: relative;
+    top: 14px;
+    margin-left: 10px;
+    color: #16169a;
+    font-weight: 500;
+}
+
+.header-features {
+    list-style-type: none;
+}
+
+.header-features .tick {
+    color:green;
+}
+
+footer {
+    padding-top:2rem;
+    padding-bottom: 2rem;
+}
+
+.footer-logo {
+    width:190px;
+}
+
+.footer-text {
+    font-weight: 500;
+    color: #16169a;
+    font-size:80%;
+}
+
+.footer-links * {
+    color: #888;
+    margin:auto 5px;
+    text-decoration: none;
+}
+
+.footer-links .copyright {
+    font-size:13px;
+}
+
+.content {
+    padding:0;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgb(4 45 108) 0%, lab(47 -8.99 -41.49) 120%);
+}
+
+.inner-content {
+    padding-top:5rem;
+    padding-bottom:6rem;
+}
+
+.content-headers {
+    color:#fff;
+}
+
+.content-headers h3 {
+    font-weight: 800;
+}
+
+.basic-form {
+    margin-top: 6rem;
+}
+
+.basic-form label {
+    color:#fff;
+    font-weight: 500;
+}
+
+.input-group-rounded {
+    background-color:#fff;
+    padding: 5px;
+    border-radius: 25px;
+    position: relative;
+    padding-left: 43px;
+}
+
+.input-group-rounded .input {
+    border-color:none;
+    border-width: 0;
+}
+
+.input-badge {
+    background-color: #f4a005;
+}
+
+.input-badge.pos-rel {
+    position:absolute;
+    top: 13px;
+    left: 17px;
+}
+
+.dropdown-rounded .dropdown-toggle::after{
+    position: absolute;
+    right: 20px;
+    top: 22px;
+}
+.dropdown-rounded .dp-btn-width-auto {
+    width: 100%;
+    background-color: #fff;
+    color: grey;
+    text-align: left;
+    border-radius: 25px;
+    border-radius: 25px;
+    padding: 12px 20px;
+}
+
+.lmh-dropdown-menu.dropdown-menu {
+    width:100%;
+}
+.lmh-dropdown-menu.dropdown-menu li {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.lmh-dropdown-menu.dropdown-menu li a {
+    padding-left:2rem;
+    padding-right:2rem;
+}
+.lmh-dropdown-menu.dropdown-menu li a:hover {
+    background-color: #cee0d8;
+    color:black;
+    font-weight: 500;
+}
+
+.lmph-btn.btn {
+    background-color: #16169a;
+    border-radius: 25px;
+    color: #fff;
+    font-weight: 500;
+    padding: 10px 30px;
+}
+
+.other-category-link {
+    text-decoration: dotted;
+    text-decoration-line: underline;
+    text-underline-offset: 5px;
+}
+
+.other-category-entries {
+    height: 350px;
+    overflow-y: auto;
+    margin-right:-28px;
+}
+
+.other-category-entries .entry {
+    width: 50%;
+    margin-top:5px;
+    margin-bottom:5px;
+ }
+
+.other-category-entries .entry a {
+    text-decoration: none;;
+ }
+
+ .col-gap-left { padding-left:6rem; }
+ .col-gap-right { padding-right:6rem; }
+
+ .zipcode-autocomplete-group .autocomplete-menu li a {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.zipcode-autocomplete-group .autocomplete-menu li a.dropdown-item {
+    padding-left:2rem;
+    padding-right:2rem;
+}
+
+.zipcode-autocomplete-group .autocomplete-menu li a.dropdown-item:hover {
+    background-color: #cee0d8;
+    color:black;
+}
+
+.zipcode-autocomplete-group .autocomplete-menu li a.dropdown-item.bg-primary {
+    background-color: #cee0d8!important;
+}
+
+.zipcode-autocomplete-group .autocomplete-menu li a.text-white {
+    color: inherit!important;;               
+}
+
+.btn.btn-link {
+    text-decoration: none;
+}
+
+.fa-star {
+    color:#888;
+}
+
+.star-rated {
+    color:#f4a005;
+}
+
+.review-section {
+    color:#fff;
+    font-size:14px;
+    border-bottom:1px solid #ffffff61;;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.review-section:last-child {
+    border-bottom:0px none;
+}
+
+.lawyer-avatar {
+    width: 95px;
+    border-radius: 50%;
+}
+
+.review-section .lawyer-avatar {
+    width: 95px;
+}
+
+.review-section .btn-view-review-summary {
+    font-size:12px;
+    text-decoration: none;
+    color:#f4a005;
+}
+.review-section .btn-view-review-summary:hover {
+    opacity: 95%;
+}
+
+.modal-header {
+    border-bottom: 0px none;
+    padding-bottom:0;
+    padding-left: 3rem;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #888;
+  }
